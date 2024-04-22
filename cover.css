@@ -68,3 +68,14 @@ body {
   z-index: 1; /* Content over the video */
   padding-top: 25vh; /* Push down content to not overlap video */
 }
+
+/* ChatGPT code bellow */
+
+.card-img-top {
+  width: 100%; /* make sure the image covers 100% of the card width */
+  height: 27vw; /* responsive height based on the width of the viewport */
+  object-fit: cover; /* ensures the image covers the area without being stretched */
+}
+.card-body h5 {
+  margin-top: 10px; /* spacing between image and title for visual aesthetics */
+}
